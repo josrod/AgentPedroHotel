@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<grammar root="tipocomida" version="1.0" xml:lang="es-es" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+	<!-- prueba.grxml: General -->
+	<!-- Created by Catalina Roncancio Valencia, Language: Español -->
+	<!-- Revision KtaBot -1.00- -->
+	<!-- Last modified April 14th, 2009-->
+	<rule id="tipocomida" scope="public">
+		me gusta la comida
+		<ruleref uri="#nametipo"/>
+		<tag>nametipo= rules.nametipo</tag>
+	</rule>
+	<rule id="nametipo">
+		<one-of>
+			<item>italiana</item>
+			<item>china</item>
+			<item>griega</item>
+			<item>japonesa</item>
+			<item>española</item>
+			<item>francesa</item>
+		</one-of>
+	</rule>
+</grammar>
+

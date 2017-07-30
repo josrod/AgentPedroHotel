@@ -1,0 +1,20 @@
+Type: GRAMMAR
+Language: es-es
+Name: saludos
+Source: file://localhost/K:/PROGRAMAS/CHATBOT/ChatBotConsola&Form/RP/Source/saludos.grxml
+GlobModel: DEFAULT,-
+ConfCompensationAdd: 0.000000
+ConfCompensationMul: 1.000000
+RootRule: root
+TpLevRule: root
+Steps: 1
+Bin1: saludos.bin
+Tech1: RN
+UFiles: file://localhost/K:/PROGRAMAS/CHATBOT/ChatBotConsola&Form/RP/Source/saludos.grxml
+AFiles: saludos.grr saludos.bin saludos.grb saludos.vf saludos.gsi
+DefModels: spagnnjrplp_stu_v3
+Semantic: YES
+TranscrSilences: FULL
+MaxTranscrNumber: 1
+DefClass: GR_BASE
+SWVersion: SATLIB 07.07.00  LNGPACK 7.6.0  

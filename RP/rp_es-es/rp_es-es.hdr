@@ -1,0 +1,6 @@
+Type: RECOGNITION_PACKAGE
+Name: rp_es-es
+SatVer: 07.06.00
+ROList: saludos
+Language: es-es 
+DefaultModels: spagnnjrplp_stu_v3

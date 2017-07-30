@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<grammar root="root" version="1.0" xml:lang="es-es" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<!-- encuesta.grxml: To evaluate the stimuls -->
+<!-- Created by Catalina Roncancio Valencia, Language: Español -->
+<!-- Revision AriscoBot -2.00- -->
+<!-- Last modified October 19th, 2010-->
+	<rule id="root">
+	<one-of>
+		<item>encuesta</item>
+		<item>muy pobre</item>
+		<item>pobre</item>
+		<item>regular</item>
+		<item>satisfactorio</item>
+		<item>muy satisfactorio</item>
+		<item>continuar</item>
+	</one-of>
+	</rule>
+</grammar>

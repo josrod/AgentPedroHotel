@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<grammar root="root" version="1.0" xml:lang="es-es" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<!-- timepo.grxml: the weather -->
+<!-- Created by Catalina Roncancio Valencia, Language: Español -->
+<!-- Revision KtaBot -1.00- -->
+<!-- Last modified October 1th, 2009-->
+	<rule id="root">
+		<one-of>
+			<item>que tiempo hace</item>
+			<item>que tiempo hace en valladolid</item>
+			<item>dime la prevision meteorologica</item>
+			<item>que tiempo hara mañana</item>
+			<item>que tiempo hace en valladolid</item>
+			<item>que tiempo hara hoy</item>
+			<item>que tiempo hara mañana</item>
+			<item>que tiempo hara pasado mañana</item>
+		</one-of>
+</rule>
+</grammar>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13FF7525-E05D-4C82-AB3A-B62D83D0BC1E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AIEBOT</RootNamespace>
+    <AssemblyName>AIEBOT</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AIMLbot, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AIMLbot.dll</HintPath>
+    </Reference>
+    <Reference Include="Animaonline Weather API, Version=2.5.0.0, Culture=neutral, PublicKeyToken=5808f2d90955dcf7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Animaonline Weather API.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomAIMLTags, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AvatarGestos\ActionUnit.cs" />
+    <Compile Include="AvatarGestos\Emotions.cs" />
+    <Compile Include="Busqueda\SearchTopic.cs" />
+    <Compile Include="Chat\Dlgbehavior.cs" />
+    <Compile Include="Dlls\ASRDllImport.cs" />
+    <Compile Include="Chat\ChatBot.cs" />
+    <Compile Include="Dlls\Constants.cs" />
+    <Compile Include="Dlls\IPCDllImport.cs" />
+    <Compile Include="BotDB\claseFunciones.cs" />
+    <Compile Include="BotDB\FuncionesIni.cs" />
+    <Compile Include="Busqueda\Generator.cs" />
+    <Compile Include="Busqueda\Properties.cs" />
+    <Compile Include="Encuesta\Preguntas.cs" />
+    <Compile Include="Principal.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebApp\Conditions.cs" />
+    <Compile Include="Busqueda\GMapsXML.cs" />
+    <Compile Include="WebApp\Constantes.cs" />
+    <Compile Include="WebApp\HelpImg.cs" />
+    <Compile Include="WebApp\SacarinoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebApp\SacarinoForm.Designer.cs">
+      <DependentUpon>SacarinoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebApp\Weather.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebApp\SacarinoForm.resx">
+      <DependentUpon>SacarinoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\fondoApp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Marco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barra2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Planos\PlanoHotel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barraV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpcionesWeather.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarcoWeather.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\loby.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RobotHRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RobotH2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

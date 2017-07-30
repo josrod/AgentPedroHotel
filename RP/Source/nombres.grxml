@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<grammar root="nombres" version="1.0" xml:lang="es-es" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+	<!-- prueba.grxml: General -->
+	<!-- Created by Catalina Roncancio Valencia, Language: Español -->
+	<!-- Revision KtaBot -1.00- -->
+	<!-- Last modified April 14th, 2009-->
+	<rule id="nombres" scope="public">
+		me llamo
+		<ruleref uri="#name"/>
+		<tag>name= rules.name</tag>
+	</rule>
+	<rule id="name">
+		<one-of>
+			<item>andres</item>
+			<item>jose</item>
+			<item>maria</item>
+			<item>ana</item>
+			<item>catalina</item>
+			<item>carlos</item>
+			<item>miguel</item>
+			<item>david</item>
+			<item>raul</item>
+			<item>roberto</item>
+			<item>jaime</item>
+			<item>fernando</item>
+			<item>catalina</item>
+			<item>sergio</item>
+			<item>luis</item>
+			<item>pedro</item>
+			<item>isaac</item>
+			<item>samuel</item>
+			<item>susana</item>
+		</one-of>
+	</rule>
+</grammar>
+

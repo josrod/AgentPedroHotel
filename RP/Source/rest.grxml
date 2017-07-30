@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<grammar root="rest" version="1.0" xml:lang="es-es" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+	<!-- prueba.grxml: General -->
+	<!-- Created by Catalina Roncancio Valencia, Language: Español -->
+	<!-- Revision KtaBot -1.00- -->
+	<!-- Last modified April 14th, 2009-->
+	<rule id="rest" scope="public">
+		dame informacion del restaurante
+		<ruleref uri="#namerest"/>
+		<tag>namerest= rules.namerest</tag>
+	</rule>
+	<rule id="namerest">
+		<one-of>
+			<item>niza</item>
+			<item>morisi ubi bene</item>
+			<item>ponte vecchio</item>
+			<item>milano</item>
+			<item>dong fang</item>
+			<item>chino oriental</item>
+			<item>pekin</item>
+			<item>thassos</item>
+			<item>kalimera grecia</item>
+			<item>asiatico</item>
+			<item>el desierto rojo</item>
+			<item>mareas de castilla</item>
+			<item>la criolla</item>
+			<item>parrilla vinotinto</item>
+			<item>creperia eh voila</item>
+			<item>ginos</item>
+			<item>la parrilla de san lorenzo</item>
+			<item>jero</item>
+			<item>los zagales</item>
+		</one-of>
+	</rule>
+</grammar>
+

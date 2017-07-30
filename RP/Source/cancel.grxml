@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<grammar root="root" version="1.0" xml:lang="es-es" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<!-- cancel.grxml: to abort the stimuli -->
+<!-- Created by Catalina Roncancio Valencia, Language: Español -->
+<!-- Revision AriscoBot -2.00- -->
+<!-- Last modified December 11th, 2009-->
+	<rule id="root">
+	<one-of>
+		<item>la verdad no</item>
+		<item>pues no</item>
+		<item>gracias pero no</item>
+		<item>no gracias</item>
+		<item>no se preocupe</item>
+		<item>no</item>
+		<item>si</item>
+	</one-of>
+	</rule>
+</grammar>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<grammar root="root" version="1.0" xml:lang="es-es" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<!-- Eating.grxml: General Greetings -->
+<!-- Created by Catalina Roncancio Valencia, Language: Español -->
+<!-- Revision KtaBot -1.00- -->
+<!-- Last modified October 1th, 2009-->
+	<rule id="root">
+		<one-of>
+			<item>me puedes decir los horarios de las comidas</item>
+			<item>cuales son los horarios de las comidas</item>
+			<item>donde estamos</item>
+			<item>que restaurantes me recomiendas</item>
+			<item>Cuales son los servicios del hotel</item>
+			<item>que servicios tiene el hotel</item>
+			<item>dame información del hotel</item>
+			<item>Dame información del restaurante</item>
+			<item>Cual es el restaurante</item>
+			<item>donde esta el restuarante</item>
+			<item>cuales son las salas</item>
+			<item>que tiene las salas</item>
+			<item>Que hay para los niños</item>
+			<item>donde esta la zona de juegos</item>
+			<item>que ofrece el hotel para los niños</item>
+			<item>que tienen las habitaciones</item>
+			<item>como son las habitaciones</item>
+			<item>tienen servicio a las habitaciones</item>
+			<item>hay servicio a la habitacion</item>
+			<item>donde esta el bar</item>
+			<item>donde esta la terraza</item>
+			<item>donde esta el bar del hotel</item>
+			<item>hay bar</item>
+		</one-of>
+	</rule>
+</grammar>
